@@ -58,6 +58,7 @@ textarea {
     padding: 10px;
     border-radius: 20px;
     font-family: 'Playwrite NG Modern', sans-serif; /* Apply the imported font family */
+    font-size
 }
 
 input {
@@ -66,7 +67,7 @@ input {
     padding: 10px;
     width: 50%;
     background-color: rgb(90, 83, 83);
-    font-size: larger;
+    font-size: large;
     color: black;
     font-family: 'Playwrite NG Modern', sans-serif; /* Apply the imported font family */
 }
