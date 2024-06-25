@@ -17,24 +17,24 @@
         <input type="tel" placeholder="Enter Your Full Name"  required>
         <br><br>
         <label for="age">Age :</label><br>
-        <input type="number" placeholder="Enter your Age" min="18" max="40">
+        <input type="number" placeholder="Enter your Age" min="18" max="40" required>
         <br><br>
         <label for="number">Phone Number :</label><br>
-        <input type="number" placeholder="Enter Phone number" minlength="10" maxlength="10" pattern="\d{10}">
+        <input type="number" placeholder="Enter Phone number" minlength="10" maxlength="10" pattern="\d{10}" required>
         <br><br>
         <label for="email">Email ID : </label><br>
-        <input type="email" placeholder="Enter your mail">
+        <input type="email" placeholder="Enter your mail" required>
         <br><br>
         <label for="gender">Gender :</label>
-        <select id="gender" name="gender" id="gender">
+        <select id="gender" name="gender" id="gender" required>
             <option value="">Male</option>
             <option value="">Female</option>
             <option value="">Third Gender</option>
         </select><br><br>
         <label for="address">Address :</label><br>
-        <textarea rows="5" cols="50" placeholder="Enter Your Address"></textarea>
+        <textarea rows="5" cols="50" placeholder="Enter Your Address" required></textarea>
         <br><br>
-        <label for="feedback">Feedback :</label><br>
+        <label for="feedback">Feedback : (OPTIONAL)</label><br>
         <textarea rows="5" cols="50" placeholder="Give your valuable feedback"></textarea><br>
         <input type="submit" id="submit">
         <input type="reset" id="reset">
