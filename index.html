@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://www.flaticon.com/free-icon/operator_4370113">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+    <div id="main">
+    <header><h2>CONTACT FORM</h2></header>
+    <h3>Give Your Information</h3>
+    <form action="">
+        <label for="name">Name :</label><br>
+        <input type="tel" placeholder="Enter Your Full Name"  required>
+        <br><br>
+        <label for="age">Age :</label><br>
+        <input type="number" placeholder="Enter your Age" min="18" max="40">
+        <br><br>
+        <label for="number">Phone Number :</label><br>
+        <input type="number" placeholder="Enter Phone number" minlength="10" maxlength="10" pattern="\d{10}">
+        <br><br>
+        <label for="email">Email ID : </label><br>
+        <input type="email" placeholder="Enter your mail">
+        <br><br>
+        <label for="gender">Gender :</label>
+        <select id="gender" name="gender" id="gender">
+            <option value="">Male</option>
+            <option value="">Female</option>
+            <option value="">Third Gender</option>
+        </select><br><br>
+        <label for="address">Address :</label><br>
+        <textarea rows="5" cols="50" placeholder="Enter Your Address"></textarea>
+        <br><br>
+        <label for="feedback">Feedback :</label><br>
+        <textarea rows="5" cols="50" placeholder="Give your valuable feedback"></textarea><br>
+        <input type="submit" id="submit">
+        <input type="reset" id="reset">
+    </form>
+    <br><br>
+    <footer>
+        <h4>Thanks For Contacting us &#128522;</h4> <!--emoji code &#128522;-->
+    </footer>
+</div>
+</body>
+</html>
